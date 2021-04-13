@@ -101,6 +101,12 @@
 
 		transition: all 0.5s ease-in;
 	}
+	@media screen and (max-width: 600px){
+		.container, div{
+			display: flex;
+			flex-direction: column;
+		}
+	}
 	.container > div:hover{
 		opacity: 0.7;
 		transform: scale(0.98);
