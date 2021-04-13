@@ -1,6 +1,4 @@
-<script>
 
-</script>
 <svelte:head>
 	<title>Heath Panel</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
@@ -124,12 +122,12 @@
 		grid-column: 1/3;
 	}
 	.bg1{
-		/* background: url('/img/bg1.jpg'); */
-		background: rgb(134, 3, 134);
+		background: url('../img/bg1.jpg');
+		/* background: rgb(134, 3, 134); */
 	}
 	.bg2{
-		/* background: url('/img/bg2.jpg'); */
-		background: rgb(228, 162, 39);
+		background: url('../img/bg2.jpg');
+		/* background: rgb(228, 162, 39); */
 		color: #333;
 	}
 
